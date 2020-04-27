@@ -1,6 +1,6 @@
 .menu-item {
   min-width: 30%;
-  height: 40vh;
+  height: 320px;
   flex: 1 1 auto;
   display: flex;
   align-items: center;
@@ -23,7 +23,7 @@
 }
 
   &.large {
-   height: 50vh; 
+   height: 380px; 
   }
 
   &:first-child {
@@ -39,6 +39,7 @@
     height: 100%;
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
   }
 
   .content {

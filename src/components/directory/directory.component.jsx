@@ -1,5 +1,6 @@
 import React from 'react'
 import MenuItem from '../menu-item/menu-item.component'
+import SECTIONS_DATA from './sections.data'
 import './directory.styles.scss'
 
 class Directory extends React.Component {
@@ -9,40 +10,7 @@ class Directory extends React.Component {
     // small 480*320
     // big 800*490
     this.state = {
-      sections: [
-        {
-          title: 'sous-vide',
-          imageUrl: '/images/sous-vide-meat.jpg',
-          id: 1,
-          linkUrl: '',
-        },
-        {
-          title: 'face masks',
-          imageUrl: '/images/vitalik-moon.jpg',
-          id: 2,
-          linkUrl: '',
-        },
-        {
-          title: 'btc Futures',
-          imageUrl: '/images/btc-mcdonalds.jpg',
-          id: 3,
-          linkUrl: '',
-        },
-        {
-          title: 'food diaries',
-          imageUrl: '/images/spiky-sea-creature.jpg',
-          size: 'large',
-          id: 4,
-          linkUrl: '',
-        },
-        {
-          title: 'another tesla',
-          imageUrl: '/images/tesla-large.jpg',
-          size: 'large',
-          id: 5,
-          linkUrl: 'hats',
-        },
-      ]
+      sections: SECTIONS_DATA
     }
   }
 
