@@ -27,7 +27,7 @@ const SHOP_DATA = [
         id: 4,
         name: 'Vacuum Sealer',
         imageUrl: '/images/shop-data/vacuum-sealer.jpg',
-        price: 1100
+        price: 89
       },
       {
         id: 5,
@@ -64,7 +64,7 @@ const SHOP_DATA = [
         id: 4,
         name: 'Overconfident',
         imageUrl: '/images/shop-data/overconfident.jpg',
-        price: 110
+        price: 32
       },
       {
         id: 5,
@@ -81,7 +81,7 @@ const SHOP_DATA = [
     items: [
       {
         id: 1,
-        name: '"Melancholia" 200x150',
+        name: '"Melancholia" 120x200',
         imageUrl: '/images/shop-data/btc-believe.jpg',
         price: 44
       },
@@ -101,13 +101,13 @@ const SHOP_DATA = [
         id: 4,
         name: '"March 13" signed by Hodlonaut',
         imageUrl: '/images/shop-data/mar13.jpg',
-        price: 50
+        price: 65
       },
       {
         id: 5,
         name: '"March 19" signed by Hodlonaut',
         imageUrl: '/images/shop-data/mar19.jpg',
-        price: 4
+        price: 65
       },
     ]
   },
