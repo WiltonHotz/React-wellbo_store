@@ -43,31 +43,31 @@ const SHOP_DATA = [
     routeName: 'face-masks',
     items: [
       {
-        id: 1,
+        id: 6,
         name: 'Cuz Red Lips',
         imageUrl: '/images/shop-data/lip-mask.jpg',
         price: 40
       },
       {
-        id: 2,
+        id: 7,
         name: 'Louis Vuitton',
         imageUrl: '/images/shop-data/lv-mask.jpg',
         price: 139
       },
       {
-        id: 3,
+        id: 8,
         name: 'Assassin',
         imageUrl: '/images/shop-data/ninja-mask.jpg',
         price: 110
       },
       {
-        id: 4,
+        id: 9,
         name: 'Overconfident',
         imageUrl: '/images/shop-data/overconfident.jpg',
         price: 32
       },
       {
-        id: 5,
+        id: 10,
         name: 'Post Corona',
         imageUrl: '/images/shop-data/future-mask.jpg',
         price: 160
@@ -80,31 +80,31 @@ const SHOP_DATA = [
     routeName: 'btc-futures',
     items: [
       {
-        id: 1,
+        id: 11,
         name: '"Melancholia" 120x200',
         imageUrl: '/images/shop-data/btc-believe.jpg',
         price: 44
       },
       {
-        id: 2,
+        id: 12,
         name: '"Hat Trick" Gold Frame',
         imageUrl: '/images/shop-data/to-the-moon.jpg',
         price: 50
       },
       {
-        id: 3,
+        id: 13,
         name: '"Half Full" 6-pack',
         imageUrl: '/images/shop-data/bch-beer.jpg',
         price: 4
       },
       {
-        id: 4,
+        id: 14,
         name: '"March 13" signed by Hodlonaut',
         imageUrl: '/images/shop-data/mar13.jpg',
         price: 65
       },
       {
-        id: 5,
+        id: 15,
         name: '"March 19" signed by Hodlonaut',
         imageUrl: '/images/shop-data/mar19.jpg',
         price: 65
@@ -117,61 +117,61 @@ const SHOP_DATA = [
     routeName: 'deli-food',
     items: [
       {
-        id: 1,
+        id: 16,
         name: 'Dry Aged Meat',
         imageUrl: '/images/shop-data/dry-aged-meat.jpg',
         price: 65
       },
       {
-        id: 2,
+        id: 17,
         name: 'Macanese Banana',
         imageUrl: '/images/shop-data/banana.jpg',
         price: 2
       },
       {
-        id: 3,
+        id: 18,
         name: 'Carbonara',
         imageUrl: '/images/shop-data/carbonara.jpg',
         price: 15
       },
       {
-        id: 4,
+        id: 19,
         name: 'Mix Grill',
         imageUrl: '/images/shop-data/grill.jpg',
         price: 25
       },
       {
-        id: 5,
+        id: 20,
         name: 'Lobster',
         imageUrl: '/images/shop-data/lobster.jpg',
         price: 38
       },
       {
-        id: 6,
+        id: 21,
         name: 'Piece of Sushi',
         imageUrl: '/images/shop-data/perf-sushi.jpg',
         price: 12
       },
       {
-        id: 7,
+        id: 22,
         name: 'White Sushi',
         imageUrl: '/images/shop-data/white-sushi.jpg',
         price: 10
       },
       {
-        id: 8,
+        id: 23,
         name: 'Mushroom',
         imageUrl: '/images/shop-data/shroom.jpg',
         price: 1
       },
       {
-        id: 9,
+        id: 24,
         name: 'Pizza',
         imageUrl: '/images/shop-data/pizza.jpg',
         price: 13
       },
       {
-        id: 10,
+        id: 25,
         name: 'Strawberries',
         imageUrl: '/images/shop-data/strawberries.jpg',
         price: 15
@@ -184,49 +184,49 @@ const SHOP_DATA = [
     routeName: 'another-tesla',
     items: [
       {
-        id: 1,
+        id: 26,
         name: 'Roadster',
         imageUrl: '/images/shop-data/roadster.jpg',
         price: 200000
       },      
       {
-        id: 2,
+        id: 27,
         name: 'Model S',
         imageUrl: '/images/shop-data/model-s.jpg',
         price: 74490
       },
       {
-        id: 3,
+        id: 28,
         name: 'Model 3',
         imageUrl: '/images/shop-data/model-3.jpg',
         price: 33690
       },
       {
-        id: 4,
+        id: 29,
         name: 'Model X',
         imageUrl: '/images/shop-data/model-x.jpg',
         price: 79690
       },
       {
-        id: 5,
+        id: 30,
         name: 'Model Y',
         imageUrl: '/images/shop-data/model-y.jpg',
         price: 46690
       },
       {
-        id: 6,
+        id: 31,
         name: 'Semi',
         imageUrl: '/images/shop-data/tesla-semi.jpg',
         price: 150000
       },
       {
-        id: 7,
+        id: 32,
         name: 'Cybertruck',
         imageUrl: '/images/shop-data/cybertruck.jpg',
         price: 39900
       },
       {
-        id: 8,
+        id: 33,
         name: 'Charger',
         imageUrl: '/images/shop-data/charger.jpg',
         price: 100000
