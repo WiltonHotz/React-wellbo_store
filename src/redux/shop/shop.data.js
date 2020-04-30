@@ -1,5 +1,5 @@
-const SHOP_DATA = [
-  {
+const SHOP_DATA = {
+  'sous-vide': {
     // 250-300 * 350px
     id: 1,
     title: 'sous-vide',
@@ -37,7 +37,7 @@ const SHOP_DATA = [
       },
     ]
   },
-  {
+  'face-masks': {
     id: 2,
     title: 'face masks',
     routeName: 'face-masks',
@@ -74,7 +74,7 @@ const SHOP_DATA = [
       },
     ]
   },
-  {
+  'btc-futures': {
     id: 3,
     title: 'btc futures',
     routeName: 'btc-futures',
@@ -111,7 +111,7 @@ const SHOP_DATA = [
       },
     ]
   },
-  {
+  'deli-food': {
     id: 4,
     title: 'deli food',
     routeName: 'deli-food',
@@ -178,7 +178,7 @@ const SHOP_DATA = [
       }
     ]
   },
-  {
+  'another-tesla': {
     id: 5,
     title: 'another tesla',
     routeName: 'another-tesla',
@@ -233,6 +233,6 @@ const SHOP_DATA = [
       }
     ]
   }
-]
+}
 
 export default SHOP_DATA;
