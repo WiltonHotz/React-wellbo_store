@@ -17,7 +17,7 @@ export const createUserProfileDocument = async (userAuth, additionalData) => {
 
   const userRef = firestore.doc(`users/${userAuth.uid}`) // use ref documentRef for CRUD
 
-  const snapShot = await userRef.get()
+  const snapShot = await userRef.get() // call snapShot.data() to get object
   
   if(!snapShot.exists) {
     const { displayName, email } = userAuth
@@ -36,6 +36,37 @@ export const createUserProfileDocument = async (userAuth, additionalData) => {
   }
 
   return userRef
+}
+
+export const convertCollectionsSnapshotToMap = (collections) => {
+  const transformedCollection = collections.docs.map(doc => {
+    const { title, items } = doc.data()
+
+    return {
+      routeName: encodeURI(title.toLowerCase()),
+      id: doc.id,
+      title,
+      items
+    }
+  })
+
+  return transformedCollection.reduce((accumulator, collection) => {  // transform object with title as keys
+    accumulator[collection.title.toLowerCase()] = collection
+    return accumulator
+  }, {})
+}
+
+export const addCollectionAndDocuments = async (collectionKey, objectsToAdd) => {
+  const collectionRef = firestore.collection(collectionKey)
+  console.log(collectionRef)
+
+  const batch = firestore.batch() // batch all data so we can fail all or accept all.
+  objectsToAdd.forEach(obj => {
+    const newDocRef = collectionRef.doc()
+    batch.set(newDocRef, obj)
+  })
+
+  return await batch.commit() // just do this once to add our collection data to firebase. See app.js for commented out code
 }
 
 firebase.initializeApp(config)
