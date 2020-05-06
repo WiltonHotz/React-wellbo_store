@@ -10,27 +10,27 @@ const INITIAL_STATE = {
       title: 'face masks',
       imageUrl: '/images/sections-data/vitalik-moon.jpg',
       id: 2,
-      linkUrl: 'shop/face-masks',
+      linkUrl: 'shop/face masks',
     },
     {
       title: 'btc Futures',
       imageUrl: '/images/sections-data/btc-mcdonalds.jpg',
       id: 3,
-      linkUrl: 'shop/btc-futures',
+      linkUrl: 'shop/btc futures',
     },
     {
       title: 'deli food',
       imageUrl: '/images/sections-data/spiky-sea-creature.jpg',
       size: 'large',
       id: 4,
-      linkUrl: 'shop/deli-food',
+      linkUrl: 'shop/deli food',
     },
     {
       title: 'another tesla',
       imageUrl: '/images/sections-data/tesla-large.jpg',
       size: 'large',
       id: 5,
-      linkUrl: 'shop/another-tesla',
+      linkUrl: 'shop/another tesla',
     },
   ]
 }
