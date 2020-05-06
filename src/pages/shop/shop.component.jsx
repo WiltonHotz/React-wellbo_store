@@ -15,7 +15,6 @@ class ShopPage extends React.Component {
   render() {
     const { match } = this.props
 
-    console.log(match.path)
       return (
         <div className='shop-page'>
           <Route exact path={`${match.path}`}
