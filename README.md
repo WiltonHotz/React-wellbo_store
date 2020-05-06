@@ -24,9 +24,21 @@
   
 ### advanced-redux
 
+* React
+  * Styled Components
+  * HOC
+  * Observer Pattern
+  * Container Pattern
+* Redux
+  * Thunk
+
+### redux-saga
+
 * 
 
+### react-hooks
 
+* 
 
 ## Available Scripts
 
