@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './App.css';
 
 import HomePage from './pages/homepage/homepage.component'
@@ -15,20 +15,13 @@ import { checkUserSession } from './redux/user/user.actions'
 
 // import { selectCollectionsForPreview } from './redux/shop/shop.selectors'
 
-class App extends React.Component {
+const App = ({ checkUserSession, currentUser }) => {
 
-  unsubscribeFromAuth = null
 
-  componentDidMount() {
-    const { checkUserSession } = this.props
+  useEffect(() => {
     checkUserSession()    
-  }
+  }, [checkUserSession])
 
-  componentWillUnmount() {
-    this.unsubscribeFromAuth()
-  }
-
-  render() {
     return (
       <div>
       <Header />
@@ -40,7 +33,7 @@ class App extends React.Component {
           exact
           path='/signin'
           render={() => 
-              this.props.currentUser 
+              currentUser 
             ? (<Redirect to='/' />)
             : (<SignInAndSignUpPage />)
             } 
@@ -49,7 +42,6 @@ class App extends React.Component {
       </div>
     )
   }
-}
 
 const mapStateToProps = createStructuredSelector({
   currentUser: selectCurrentUser,
