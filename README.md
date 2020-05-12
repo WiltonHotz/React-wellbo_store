@@ -39,6 +39,17 @@
 
 ### react-hooks
 
+* Hooks
+  * useState
+  * useEffect
+  * useContext
+* Stripe
+  * Stripe working backend
+* Deployment
+  * Latest version pushed to Heroku
+
+### context-api
+
 * 
 
 ## Available Scripts
