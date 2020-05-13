@@ -50,6 +50,16 @@
 
 ### context-api
 
+* Hooks
+  * useContext
+* Context API
+  * Provider
+  * Context
+* Redux
+  * Removed Redux
+  
+### graphql-apollo
+
 * 
 
 ## Available Scripts
