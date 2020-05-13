@@ -1,5 +1,4 @@
-const INITIAL_STATE = {
-  sections: [
+const DIRECTORY_DATA = [
     {
       title: 'sous-vide',
       imageUrl: '/images/sections-data/sous-vide-meat.jpg',
@@ -33,13 +32,5 @@ const INITIAL_STATE = {
       linkUrl: 'shop/another-tesla',
     },
   ]
-}
 
-const directoryReducer = (state = INITIAL_STATE , action) => {
-  switch(action.type) {
-    default:
-      return state
-  }
-}
-
-export default directoryReducer
+  export default DIRECTORY_DATA
