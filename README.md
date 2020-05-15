@@ -75,14 +75,14 @@
   * memo
   * PureComponent
   * When not to optimize
-* Hooks
-  * useCallback
-  * useMemo
-* Gzipping and Compression
-  * Server using compression
-* Tools
-  * DevTools
-  * React Profiler
+  * Hooks
+    * useCallback
+    * useMemo
+  * Gzipping and Compression
+    * Server using compression
+  * Tools
+    * DevTools
+    * React Profiler
 * Deployment
   * Latest version pushed to Heroku
 
