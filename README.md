@@ -60,7 +60,12 @@
   
 ### graphql-apollo
 
-* 
+* Graph QL
+  * Resolvers
+  * Container Pattern
+  (Code from Udemy Course, not my own store-code)
+  
+
 
 ## Available Scripts
 
