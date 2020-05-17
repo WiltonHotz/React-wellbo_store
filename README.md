@@ -86,11 +86,6 @@
 * Deployment
   * Latest version pushed to Heroku
 
-### progresssive-web-app
-
-*
-
-
 
 ## Available Scripts
 
