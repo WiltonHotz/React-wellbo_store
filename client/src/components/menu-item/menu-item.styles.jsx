@@ -30,6 +30,7 @@ export const MenuItemContainer = styled.div`
 
   @media screen and (max-width: 800px) {
     height: 200px;
+    min-width: 50%;
   }
 `
 
@@ -52,10 +53,6 @@ export const ContentContainer = styled.div`
   background-color: white;
   opacity: 0.8;
   position: absolute;
-  @media screen and (max-width: 800px) {
-    height: 70px;
-    padding: 0 10px;
-  }
 `
 
 export const ContentTitle = styled.span`
