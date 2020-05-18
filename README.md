@@ -85,6 +85,18 @@
     * React Profiler
 * Deployment
   * Latest version pushed to Heroku
+  
+### progressive-web-app
+
+* PWA
+  * HTTPS
+  * Manifest
+  * Service Worker
+* Firebase
+  * Rules
+  * Cart
+* Deployment
+  * Latest version pushed to Heroku
 
 
 ## Available Scripts
