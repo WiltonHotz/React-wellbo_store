@@ -97,7 +97,10 @@
   * Cart
 * Deployment
   * Latest version pushed to Heroku
-
+  
+### testing
+* Jest
+* Enzyme
 
 ## Available Scripts
 
