@@ -10,7 +10,7 @@ import { toggleCartHidden } from '../../redux/cart/cart.actions'
 import { createStructuredSelector } from 'reselect'
 import { selectCartItemsCount } from '../../redux/cart/cart.selectors'
 
-const CartIcon = ({ toggleCartHidden, itemCount }) => (
+export const CartIcon = ({ toggleCartHidden, itemCount }) => (
   <CartIconContainer onClick={toggleCartHidden}>
     <ShoppingIcon/>
     <ItemCountContainer>{itemCount}</ItemCountContainer>
