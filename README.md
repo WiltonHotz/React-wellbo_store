@@ -99,8 +99,13 @@
   * Latest version pushed to Heroku
   
 ### testing
-* Jest
-* Enzyme
+
+* Jest + Enzyme
+  * Components
+  * Pages
+  * Actions
+  * Reducers
+  * Sagas
 
 ## Available Scripts
 
